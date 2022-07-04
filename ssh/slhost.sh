@@ -23,8 +23,8 @@ subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 DOMAIN=24clanssh.com
 SUB_DOMAIN=server-${sub}.24clanssh.com
 NS_DOMAIN=slowdns-${subsl}.24clanssh.com
-CF_ID=slinfinity69@gmail.com
-CF_KEY=dd2c5e0313f122b3c1833471d469b1025f492
+CF_ID=farukbrowser0@gmail.com
+CF_KEY=95b295f79baa8c7a3c264ca5cc31b75131c6d
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
