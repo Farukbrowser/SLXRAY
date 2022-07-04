@@ -51,9 +51,9 @@ rm -f /root/ssh-vpn.sh
 systemctl daemon-reload
 history -c
 echo " "
-echo "Installation has been completed!!"echo " "
+echo "Faruk VPN Script Installation has been completed!!"echo " "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[44;1;41m      🔰 SETUP mantapv2 SLXRAY 🔰      \E[0m"
+echo -e "\E[44;1;41m      🔰 SETUP FARUK v2 SLXRAY 🔰      \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo " 🔰 >>> Service & Port" |tee -a log-install.txt
 echo " 🔰  XRAY VLESS XTLS SPLICE  : 443" |tee -a log-install.txt
@@ -102,7 +102,7 @@ echo " 🔰 TROJAN WS TLS : 2096" |tee -a log-install.txt
 echo " 🔰 TROJAN WS NON TLS : 2095" |tee -a log-install.txt
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo " 🔰>> Server Information & Other Features"                  |tee -a log-install.txt
-echo " 🔰 Timezone                : Africa/Nigeria (GMT +7)"        |tee -a log-install.txt
+echo " 🔰 Timezone                : Asia/Jakarta (GMT +7)"        |tee -a log-install.txt
 echo " 🔰 Fail2Ban                : [ON]"                         |tee -a log-install.txt
 echo " 🔰 Dflate                  : [ON]"                         |tee -a log-install.txt
 echo " 🔰 IPtables                : [ON]"                         |tee -a log-install.txt
@@ -113,7 +113,7 @@ echo " 🔰 Autobackup Data"                                        |tee -a log-
 echo " 🔰 Restore Data"                                           |tee -a log-install.txt
 echo " 🔰 Auto Delete Expired Account"                            |tee -a log-install.txt
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[44;1;41m           🔰 mantapv2 SLXRAY 🔰            \E[0m"
+echo -e "\E[44;1;41m           🔰 Faruk v2 SLXRAY 🔰            \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo " 🔰 Installation Log --> /root/log-install.txt"             |tee -a log-install.txt
 echo " Reboot 5 Sec"
