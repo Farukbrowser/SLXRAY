@@ -40,7 +40,7 @@ locality=San-Fransisco
 organization=Cloudflare
 organizationalunit=www.cloudflare.com
 commonname=Cloudflare-Inc.
-email=farukbrowser@facebook.com
+email=farukbrowser0@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${slxray1}/password"
@@ -172,7 +172,7 @@ sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7900 --max-c
 make a certificate
 openssl genrsa -out key.pem 2048
 openssl req -new -x509 -key key.pem -out cert.pem -days 3650 \
--subj "/C=US/ST=California/L=San-Fransisco/O=Cloudflare-Inc./OU=www.cloudflare.com/CN=Cloudflare/email=slinfinity69@gmail.com"
+-subj "/C=US/ST=California/L=San-Fransisco/O=Cloudflare-Inc./OU=www.cloudflare.com/CN=Cloudflare/email=farukbrowser0@gmail.com"
 cat key.pem cert.pem >> /etc/stunnel5/stunnel5.pem
 
 # setting port ssh
