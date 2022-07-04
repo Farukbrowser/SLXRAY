@@ -69,7 +69,7 @@ chown -R nobody:nogroup /etc/xray
 chmod 644 /etc/xray/xray.crt
 chmod 644 /etc/xray/xray.key
 
-#bash acme.sh --register-account -m slinfinity69@gmail.com
+#bash acme.sh --register-account -m farukbrowser0@gmail.com
 #bash acme.sh --issue --standalone -d $domain --force
 #bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
 #mkdir /root/.acme.sh
