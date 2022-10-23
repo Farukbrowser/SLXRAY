@@ -306,7 +306,7 @@ cat > /etc/xray/config.json << END
       "domain": "${uuid}"
     },
     {
-      "port": 8880,
+      "port": 2082,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -750,8 +750,8 @@ iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2052 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 777 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 777 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 2053 -j ACCEPT
-iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 8880 -j ACCEPT
-iptables -I INPUT -m state --state NEW -m udp -p udp --dport 8880 -j ACCEPT
+iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2082 -j ACCEPT
+iptables -I INPUT -m state --state NEW -m udp -p udp --dport 2082 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 70 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 70 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2083 -j ACCEPT
