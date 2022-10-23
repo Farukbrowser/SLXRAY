@@ -202,7 +202,7 @@ cat > /usr/local/bin/etc/xray/config.json <<END
       }
     },
     {
-      "port": 8880,
+      "port": 2082,
       "listen": "127.0.0.1",
       "tag": "vless-ws-in",
       "protocol": "vless",
@@ -467,8 +467,8 @@ iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2052 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 777 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 777 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 2053 -j ACCEPT
-iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 8880 -j ACCEPT
-iptables -I INPUT -m state --state NEW -m udp -p udp --dport 8880 -j ACCEPT
+iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2082 -j ACCEPT
+iptables -I INPUT -m state --state NEW -m udp -p udp --dport 2082 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 70 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 70 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2083 -j ACCEPT
