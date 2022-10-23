@@ -87,7 +87,7 @@ echo " 🔰 VMESS GRPC : 8443" |tee -a log-install.txt
 echo " 🔰 VMESS HTTP/2 : 443" |tee -a log-install.txt
 echo " 🔰 VLESS XTLS : 99" |tee -a log-install.txt
 echo " 🔰 VLESS TLS : 443" |tee -a log-install.txt
-echo " 🔰 VLESS NON TLS : 8880" |tee -a log-install.txt
+echo " 🔰 VLESS NON TLS : 2082" |tee -a log-install.txt
 echo " 🔰 VLESS GRPC : 443" |tee -a log-install.txt
 echo " 🔰 TROJAN GFW : 4443" |tee -a log-install.txt
 echo " 🔰 VLESS HTTP/2 : 443" |tee -a log-install.txt
